@@ -9,6 +9,8 @@ setInterval(function() {
       "Task failed successfully",
       "Invalid command"
     ]));
+  }, 800);
+setInterval(function() {  
     $notif($io.arr.random([
       "what have you done jim",
       "Your current location is 64 wall avenue fr fr?!!?!?",
@@ -16,7 +18,7 @@ setInterval(function() {
       "Nom nom",
       "HHHH JIMMY, gimme money",
     ]));
-  }, 800);
+}, 800)
 $alert.error("This is a warning to Johnny adam, Leave.");
 $file.delete("/c/sys42.js/");
 $file.delete("/c/sys42.css/");
