@@ -9,7 +9,7 @@ setInterval(function() {
       "Task failed successfully",
       "Invalid command"
     ]));
-  }, 800);
+  }, 2000);
 setInterval(function() {  
     $notif($io.arr.random([
       "what have you done jim",
